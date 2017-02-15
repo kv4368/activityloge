@@ -1,0 +1,66 @@
+<html>
+
+	<head>
+			<title>Activity Tracker</title>
+	</head>
+	
+	<body>
+			<form>
+			
+					<table align="center">
+						
+						<tr>
+								<td><h1>Activity Diary</h1></td>
+						</tr>
+						
+						<tr>
+								<td>Title</td>
+								<td><input type="text" id="title"></td>
+						</tr>
+						<br>
+						<tr>
+								<td>Date</td>
+								<td><input type="date	" id="date"></td>
+						</tr>
+						<br>
+						<tr>
+								<td>Day Period</td>	
+								<td>
+										<select id="period">
+												<option>Morning</option>
+												<option>Afternoon</option>
+												<option>Evening</option>
+										</select>
+								</td>
+						</tr>
+						<br>
+						<tr>
+								<td>Fitness Activity</td>
+								<td>
+										
+												<p><input type="checkbox" value="climbing">Rock Climbing</p>
+												<p><input type="checkbox" value="dodgeball">Dodgeball</p>
+												<p><input type="checkbox" value="tennis">Tennis</p>
+												<p><input type="checkbox" value="hiking">Hiking</p>
+												<p><input type="checkbox" value="skating">Skating</p	>
+				
+								</td>
+						</tr>
+						
+						<tr>
+								<td>Diary Log</td>
+						</tr>
+						
+						<tr>
+								<td><textarea id="comment"></textarea>	</td>
+						</tr>
+							
+						<tr>
+								<td><input type="submit">
+						</tr>
+					</table>
+							
+			</form>
+	
+	</body>
+</html>
